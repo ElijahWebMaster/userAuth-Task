@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['submit'])){
-    $username = //finish this line
-    $password = //finish this
+    $email = $_POST['email'];
+    $password = $_POST['password'];
 
 loginUser($email, $password);
 
